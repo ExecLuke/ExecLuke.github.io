@@ -24,3 +24,7 @@ p.githubbutton:hover{
 	color: black;
 
 }
+
+body {
+	overflow:hidden;
+}
