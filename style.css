@@ -11,6 +11,16 @@ p.glyphicon-paragraph {
 }
 
 h1.titleluke {
-	color: orange;
+	color: black;
+
+}
+
+a.githublinks:link{
+	color: black;
+
+}
+
+p.githubbutton:hover{
+	color: black;
 
 }
