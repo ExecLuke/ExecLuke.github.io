@@ -53,8 +53,13 @@ h.cv{
 
 }
 
-h.vcenter {
+.vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+a.contactimages {
+	color: 333333;
+
 }
