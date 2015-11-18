@@ -49,6 +49,7 @@
             <li><a href="index.html"><div class="wow pulse" style="visibility: visible; animation-name: pulse; -webkit-animation-name: pulse;">Home</div></a></li>
             <li><a href="aboutme.html"><div class="wow pulse" style="visibility: visible; animation-name: pulse; -webkit-animation-name: pulse;">About</div></a></li>
             <li class="active"><a href="contact.html"><div class="wow pulse" style="visibility: visible; animation-name: pulse; -webkit-animation-name: pulse;">Contact</div></a></li>
+			<li><a data-toggle="modal" data-target="#myModal">CV</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,7 +61,7 @@
 	 <h1 class="titleluke">Contact Me</h1></h1>
 	 </div>
   <div class="wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; -webkit-animation-name: bounceInLeft;">
-  <p>I can be contacted via a range of services. <br>You can find a link to my CV below.</p>
+  <p class="welcome">I can be contacted via a range of services. <br>You can find a link to my CV below.</p>
   </div>
   <p><a class="btn btn-primary btn-lg" href="cv.html"  role="button">My CV</a></p> <!--CV.html not created yet -->
   </div>
@@ -93,6 +94,29 @@
     <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-  
+ <!-- MODAL -->
+  <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><b>My CV</b></h4>
+      </div>
+      <div class="modal-body">
+	  
+	  
+        <p>This will one day house my CV.</p>
+		
+		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 </body></html>
