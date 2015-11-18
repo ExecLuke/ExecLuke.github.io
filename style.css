@@ -6,6 +6,12 @@
    	font-size: 12em;
 }
 
+.fa.fa-twitter-square,.fa.fa-facebook-square,.fa.fa-envelope {
+	font-size:12em;
+
+}
+
+
 p.glyphicon-paragraph {
 	font-size: 1.4em;
 }
