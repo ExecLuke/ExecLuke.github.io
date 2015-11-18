@@ -1,6 +1,12 @@
 .jumbotron {
-	background-image: url("http://www.hobicell.com/wallpaper/green/green-and-orange-gradient-wallpaper-free-wide-hd-green-gradient-wallpaper-hd-.jpg");
+	background-image: url("http://7-themes.com/data_images/out/18/6828622-polygon-wallpaper.jpg");
 }
+
+p.welcome {
+	color: white;
+}
+
+
 
 .glyphicon.glyphicon-tint,.glyphicon.glyphicon-phone,.glyphicon.glyphicon-grain,.glyphicon.glyphicon-duplicate,.glyphicon.glyphicon-user,.glyphicon.glyphicon-time {
    	font-size: 12em;
@@ -17,8 +23,8 @@ p.glyphicon-paragraph {
 }
 
 h1.titleluke {
-	color: black;
-
+	color: white;
+	
 }
 
 a.githublinks:link{
