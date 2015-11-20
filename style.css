@@ -18,7 +18,7 @@ p.welcome {
 }
 
 
-.fa.fa-user,.fa.fa-pencil,.fa.fa-book,.fa.fa-file {
+.fa.fa-user,.fa.fa-pencil,.fa.fa-check,.fa.fa-graduation-cap {
 	font-size:12em;
 
 }
@@ -62,4 +62,10 @@ h.cv{
 a.contactimages {
 	color: 333333;
 
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
